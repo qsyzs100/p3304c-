@@ -1,0 +1,6 @@
+cd 目标文件夹
+sudo insmod varN.ko
+gcc test.c
+sudo ./a.out
+乱码（例如：rwerewr    ewrewrwer   3423）
+cat /proc/varN
