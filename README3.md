@@ -15,10 +15,7 @@ When a string is input to the character device /dev/var3, calculate the sum of a
 3. execute insmod var3.ko
 4. View device number: 
 	cat /proc/devices | grep var3  ===> 510 var3
-5. Create a device node in the /dev directory according to the device number
-    cd /dev
-    mknod var3 c 510 0
-    ls | grep var3  ===> var3
+
 
 ## Инструкция пользователя
 
